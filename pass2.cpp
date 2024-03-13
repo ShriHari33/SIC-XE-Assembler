@@ -1,5 +1,4 @@
 #include "classes.h"
-
 extern std::string progName;
 extern OPTABLE opTab;
 extern REGTABLE regTab;
@@ -16,8 +15,7 @@ bool secondPass()
 {
     std::fstream input_file;
     std::fstream obj_file;
-
-
+    
     input_file.open("intermediate.txt", std::ios::in);
     if(!input_file.is_open())
     {

@@ -1,0 +1,7 @@
+*.exe
+*.o
+.cache
+.vscode
+.compile_commands.json
+
+
